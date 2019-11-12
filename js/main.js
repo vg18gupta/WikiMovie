@@ -14,7 +14,7 @@ function getMovies(searchText){
             let output = '';
             for ( var i = 0, l = movies.length; i<l; i++){
                 output +=`
-                    <div class="container">
+                    <div class="col-md-3">
                     <div class="well text-center">
                         <img src="${movies[i].Poster}">
                         <h5>${movies[i].Title}"</h5>

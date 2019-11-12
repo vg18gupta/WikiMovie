@@ -1,10 +1,10 @@
 #movies img, #movies[i] img{
-    width: 30%;
+    width: 100%;
 }
 
-@media(min-width: 500px){
-#movies .container .well{
-    height: 390px;
+@media(min-width: 900px){
+#movies .col-md-3 .well{
+    height: 500px;
 }
 #movies .container img{
     height: 240px;
